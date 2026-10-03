@@ -14,29 +14,42 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y \
-     isync \
-     vdirsyncer \
-     vdirsyncer-doc \
-     calcurse \
-     lbdb \
      abook \
-     mutt \
-     emacs \
+     alot \
+     aspell \
+     aspell-da \
+     aspell-en \
+     calcurse \
+     dictd-server \
      direnv \
+     dnscrypt-proxy \
      editorconfig \
-     zoxide \
+     emacs \
+     emacs-notmuch \
+     foot \
+     foot-terminfo \
+     fzf \
      helix \
-     tree-sitter-cli \
-     tig \
+     htop \
+     iotop-c \
+     isync \
+     kitty \
+     kitty-bash-integration \
+     kitty-doc \
+     kitty-kitten \
+     kitty-shell-integration \
+     kitty-terminfo \
+     lbdb \
+     mutt \
      netcat \
      nmap \
-     iotop-c \
-     htop \
-     alacritty \
-     kitty \
      ps_mem \
-     kitty-bash-integration \
-     dnscrypt-proxy
+     ssmtp
+     tig \
+     tree-sitter-cli \
+     vdirsyncer \
+     vdirsyncer-doc \
+     zoxide
 
 # Use a COPR Example:
 #
@@ -45,6 +58,6 @@ dnf5 install -y \
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-#### Example for enabling a System Unit File
-
+systemctl enable dictd
+systemctl enable dnscrypt-proxy.service
 systemctl enable podman.socket
