@@ -13,7 +13,7 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux tmux-top tmux-powerline isync ssmpt vdirsyncer vdirsyncer-doc calcurse lbdb abook mutt emacs direnv editorconfig zoxide helix tree-sitter-cli tig netcat nmap iotop-c htop alacritty kitty ps_mem bash-completion kitty-bash-integration
+dnf5 install -y isync ssmpt vdirsyncer vdirsyncer-doc calcurse lbdb abook mutt emacs direnv editorconfig zoxide helix tree-sitter-cli tig netcat nmap iotop-c htop alacritty kitty ps_mem kitty-bash-integration
 
 # Use a COPR Example:
 #
