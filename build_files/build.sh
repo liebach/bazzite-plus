@@ -40,6 +40,7 @@ dnf5 install -y \
      kitty-shell-integration \
      kitty-terminfo \
      lbdb \
+     lowdown \
      mutt \
      netcat \
      nmap \
@@ -51,6 +52,7 @@ dnf5 install -y \
      tree-sitter-cli \
      vdirsyncer \
      vdirsyncer-doc \
+     w3m \
      zoxide
 
 # Use a COPR Example:
