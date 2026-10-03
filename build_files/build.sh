@@ -53,6 +53,9 @@ dnf5 install -y \
      vdirsyncer \
      vdirsyncer-doc \
      w3m \
+     zig \
+     zig-doc \
+     zig-libs \
      zoxide
 
 dnf5 -y copr enable scottames/ghostty
