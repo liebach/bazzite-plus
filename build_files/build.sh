@@ -20,6 +20,7 @@ dnf5 install -y \
      aspell-da \
      aspell-en \
      calcurse \
+     dictd \
      dictd-server \
      direnv \
      dnscrypt-proxy \
