@@ -30,7 +30,6 @@ dnf5 install -y \
      foot \
      foot-terminfo \
      fzf \
-     helix \
      htop \
      iotop-c \
      isync \
@@ -46,6 +45,8 @@ dnf5 install -y \
      nmap \
      ps_mem \
      ssmtp \
+     syncthing \
+     syncthing-tools \
      tig \
      tree-sitter-cli \
      vdirsyncer \
