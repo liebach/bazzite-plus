@@ -44,7 +44,7 @@ dnf5 install -y \
      netcat \
      nmap \
      ps_mem \
-     ssmtp
+     ssmtp \
      tig \
      tree-sitter-cli \
      vdirsyncer \
