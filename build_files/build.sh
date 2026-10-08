@@ -39,10 +39,15 @@ dnf5 install -y \
      kitty-kitten \
      kitty-shell-integration \
      kitty-terminfo \
+     labwc \
+     labwc-menu-generator \
+     labwc-session \
+     labwc-tweaks \
      lbdb \
      lowdown \
      mutt \
      netcat \
+     noctalia \
      nmap \
      ps_mem \
      ssmtp \
