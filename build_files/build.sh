@@ -58,6 +58,7 @@ dnf5 install -y \
      vdirsyncer \
      vdirsyncer-doc \
      w3m \
+     wlopm \
      zig \
      zig-doc \
      zig-libs \
