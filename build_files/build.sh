@@ -41,6 +41,8 @@ dnf5 install -y \
      kitty-shell-integration \
      kitty-terminfo \
      lbdb \
+     lftp \
+     lftp-scripts \
      lowdown \
      mutt \
      netcat \
