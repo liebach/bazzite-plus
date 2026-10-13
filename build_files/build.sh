@@ -48,6 +48,7 @@ dnf5 install -y \
      netcat \
      nmap \
      ps_mem \
+     restic \
      ssmtp \
      syncthing \
      syncthing-tools \
