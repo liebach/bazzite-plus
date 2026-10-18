@@ -43,6 +43,7 @@ dnf5 install -y \
      lbdb \
      lftp \
      lftp-scripts \
+     lynx \
      lowdown \
      mutt \
      netcat \
