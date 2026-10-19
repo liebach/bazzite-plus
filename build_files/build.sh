@@ -35,7 +35,6 @@ dnf5 install -y \
      iotop-c \
      isync \
      kitty \
-     kitty-bash-integration \
      kitty-doc \
      kitty-kitten \
      kitty-shell-integration \
