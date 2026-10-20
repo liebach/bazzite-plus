@@ -49,6 +49,7 @@ dnf5 install -y \
      nmap \
      ps_mem \
      restic \
+     signify \
      ssmtp \
      syncthing \
      syncthing-tools \
