@@ -25,6 +25,7 @@ dnf5 install -y \
      dictd-server \
      direnv \
      dnscrypt-proxy \
+     duff \
      editorconfig \
      emacs \
      emacs-notmuch \
