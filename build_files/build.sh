@@ -209,8 +209,7 @@ dnf5 install -y \
      ghc9.14-xhtml-devel \
      ghc9.14-xhtml-doc \
      ghc9.14-xhtml-prof \
-
-    fzf \
+     fzf \
      htop \
      iotop-c \
      isync \
