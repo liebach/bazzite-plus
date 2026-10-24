@@ -212,6 +212,56 @@ dnf5 install -y \
      foot \
      foot-terminfo \
      fzf \
+     gnome-extensions-app \
+     gnome-shell-extension-pop-shell-shortcut-overrides \
+     gnome-shell-extension-appindicator \
+     gnome-shell-extension-apps-menu \
+     gnome-shell-extension-argos \
+     gnome-shell-extension-auto-move-windows \
+     gnome-shell-extension-background-logo \
+     gnome-shell-extension-blur-my-shell \
+     gnome-shell-extension-bubblemail \
+     gnome-shell-extension-caffeine \
+     gnome-shell-extension-common \
+     gnome-shell-extension-dash-to-dock \
+     gnome-shell-extension-dash-to-panel \
+     gnome-shell-extension-disconnect-wifi \
+     gnome-shell-extension-drive-menu \
+     gnome-shell-extension-focus-timer \
+     gnome-shell-extension-forge \
+     gnome-shell-extension-freon \
+     gnome-shell-extension-frippery-applications-menu \
+     gnome-shell-extension-frippery-bottom-panel \
+     gnome-shell-extension-frippery-move-clock \
+     gnome-shell-extension-frippery-panel-favorites \
+     gnome-shell-extension-gamemode \
+     gnome-shell-extension-gamerzilla \
+     gnome-shell-extension-gpaste \
+     gnome-shell-extension-gsconnect \
+     gnome-shell-extension-ibus-font \
+     gnome-shell-extension-just-perfection \
+     gnome-shell-extension-launch-new-instance \
+     gnome-shell-extension-light-style \
+     gnome-shell-extension-native-window-placement \
+     gnome-shell-extension-netspeed \
+     gnome-shell-extension-no-overview \
+     gnome-shell-extension-pidgin \
+     gnome-shell-extension-pipewire-settings \
+     gnome-shell-extension-places-menu \
+     gnome-shell-extension-pop-shell \
+     gnome-shell-extension-refresh-wifi \
+     gnome-shell-extension-screen-autorotate \
+     gnome-shell-extension-screenshot-window-sizer \
+     gnome-shell-extension-status-icons \
+     gnome-shell-extension-suspend-button \
+     gnome-shell-extension-system-monitor \
+     gnome-shell-extension-system-monitor-applet \
+     gnome-shell-extension-unite \
+     gnome-shell-extension-user-theme \
+     gnome-shell-extension-vertical-workspaces \
+     gnome-shell-extension-window-list \
+     gnome-shell-extension-windowsNavigator \
+     gnome-shell-extension-workspace-indicator \
      gnome-tweaks \
      htop \
      iotop-c \
