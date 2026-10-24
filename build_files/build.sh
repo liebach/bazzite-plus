@@ -192,17 +192,6 @@ cp -avf "/ctx/system_files"/. /
 #      ghc9.14-xhtml-doc \
 #      ghc9.14-xhtml-prof \
 
-# Already installed GNOME extensions.
-#      gnome-shell-extension-gsconnect \
-#      gnome-shell-extension-common \
-#      gnome-shell-extension-user-theme \
-
-# GNOME extension with unmet dependencies.
-#      gnome-shell-extension-argos \
-
-# This extension breaks GNOME...
-#     gnome-shell-extension-gamerzilla \
-
 # this installs a package from fedora repos
 dnf5 install -y \
      abook \
@@ -228,12 +217,10 @@ dnf5 install -y \
      gnome-shell-extension-apps-menu \
      gnome-shell-extension-auto-move-windows \
      gnome-shell-extension-background-logo \
-     gnome-shell-extension-blur-my-shell \
      gnome-shell-extension-bubblemail \
      gnome-shell-extension-caffeine \
      gnome-shell-extension-dash-to-dock \
      gnome-shell-extension-dash-to-panel \
-     gnome-shell-extension-disconnect-wifi \
      gnome-shell-extension-drive-menu \
      gnome-shell-extension-focus-timer \
      gnome-shell-extension-freon \
@@ -243,18 +230,13 @@ dnf5 install -y \
      gnome-shell-extension-frippery-panel-favorites \
      gnome-shell-extension-gamemode \
      gnome-shell-extension-gpaste \
-     gnome-shell-extension-ibus-font \
      gnome-shell-extension-just-perfection \
      gnome-shell-extension-launch-new-instance \
      gnome-shell-extension-light-style \
      gnome-shell-extension-native-window-placement \
-     gnome-shell-extension-netspeed \
      gnome-shell-extension-no-overview \
-     gnome-shell-extension-pidgin \
-     gnome-shell-extension-pipewire-settings \
      gnome-shell-extension-places-menu \
      gnome-shell-extension-pop-shell \
-     gnome-shell-extension-refresh-wifi \
      gnome-shell-extension-screenshot-window-sizer \
      gnome-shell-extension-status-icons \
      gnome-shell-extension-system-monitor \
