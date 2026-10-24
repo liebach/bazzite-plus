@@ -12,25 +12,7 @@ cp -avf "/ctx/system_files"/. /
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-dnf5 install -y \
-     abook \
-     alacritty \
-     alot \
-     aspell \
-     aspell-da \
-     aspell-en \
-     calcurse \
-     dictd \
-     dictd-server \
-     direnv \
-     dnscrypt-proxy \
-     duff \
-     editorconfig \
-     emacs \
-     emacs-notmuch \
-     foot \
-     foot-terminfo \
+# Haskell, to paste in later. Removed for speedier builds.
      # ghc9.14 \
      # ghc9.14-array \
      # ghc9.14-array-devel \
@@ -209,8 +191,28 @@ dnf5 install -y \
      # ghc9.14-xhtml-devel \
      # ghc9.14-xhtml-doc \
      # ghc9.14-xhtml-prof \
-     gnome-tweaks \
+
+# this installs a package from fedora repos
+dnf5 install -y \
+     abook \
+     alacritty \
+     alot \
+     aspell \
+     aspell-da \
+     aspell-en \
+     calcurse \
+     dictd \
+     dictd-server \
+     direnv \
+     dnscrypt-proxy \
+     duff \
+     editorconfig \
+     emacs \
+     emacs-notmuch \
+     foot \
+     foot-terminfo \
      fzf \
+     gnome-tweaks \
      htop \
      iotop-c \
      isync \
