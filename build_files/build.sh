@@ -200,6 +200,9 @@ cp -avf "/ctx/system_files"/. /
 # GNOME extension with unmet dependencies.
 #      gnome-shell-extension-argos \
 
+# This extension breaks GNOME...
+#     gnome-shell-extension-gamerzilla \
+
 # this installs a package from fedora repos
 dnf5 install -y \
      abook \
@@ -233,14 +236,12 @@ dnf5 install -y \
      gnome-shell-extension-disconnect-wifi \
      gnome-shell-extension-drive-menu \
      gnome-shell-extension-focus-timer \
-     gnome-shell-extension-forge \
      gnome-shell-extension-freon \
      gnome-shell-extension-frippery-applications-menu \
      gnome-shell-extension-frippery-bottom-panel \
      gnome-shell-extension-frippery-move-clock \
      gnome-shell-extension-frippery-panel-favorites \
      gnome-shell-extension-gamemode \
-     gnome-shell-extension-gamerzilla \
      gnome-shell-extension-gpaste \
      gnome-shell-extension-ibus-font \
      gnome-shell-extension-just-perfection \
@@ -254,13 +255,10 @@ dnf5 install -y \
      gnome-shell-extension-places-menu \
      gnome-shell-extension-pop-shell \
      gnome-shell-extension-refresh-wifi \
-     gnome-shell-extension-screen-autorotate \
      gnome-shell-extension-screenshot-window-sizer \
      gnome-shell-extension-status-icons \
-     gnome-shell-extension-suspend-button \
      gnome-shell-extension-system-monitor \
      gnome-shell-extension-system-monitor-applet \
-     gnome-shell-extension-unite \
      gnome-shell-extension-vertical-workspaces \
      gnome-shell-extension-window-list \
      gnome-shell-extension-windowsNavigator \
