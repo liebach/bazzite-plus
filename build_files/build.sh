@@ -201,6 +201,8 @@ dnf5 install -y \
      aspell-da \
      aspell-en \
      calcurse \
+     chicken \
+     chicken-libs \
      dictd \
      dictd-server \
      direnv \
@@ -264,6 +266,8 @@ dnf5 install -y \
      nmap \
      ps_mem \
      restic \
+     rlwrap \
+     sbcl \
      signify \
      ssmtp \
      syncthing \
