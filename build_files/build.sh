@@ -227,7 +227,6 @@ dnf5 install -y \
      gnome-doc-utils \
      gnome-doc-utils-stylesheets \
      gnome-extensions-app \
-     gnome-feeds \
      gnome-firmware \
      gnome-font-viewer \
      gnome-keyring \
