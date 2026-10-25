@@ -34,6 +34,14 @@ dnf5 install -y \
      foot \
      foot-terminfo \
      ghc9.14 \
+     ghc9.14-Cabal \
+     ghc9.14-Cabal-devel \
+     ghc9.14-Cabal-doc \
+     ghc9.14-Cabal-prof \
+     ghc9.14-Cabal-syntax \
+     ghc9.14-Cabal-syntax-devel \
+     ghc9.14-Cabal-syntax-doc \
+     ghc9.14-Cabal-syntax-prof \
      ghc9.14-array \
      ghc9.14-array-devel \
      ghc9.14-array-doc \
@@ -50,14 +58,6 @@ dnf5 install -y \
      ghc9.14-bytestring-devel \
      ghc9.14-bytestring-doc \
      ghc9.14-bytestring-prof \
-     ghc9.14-Cabal \
-     ghc9.14-Cabal-devel \
-     ghc9.14-Cabal-doc \
-     ghc9.14-Cabal-prof \
-     ghc9.14-Cabal-syntax \
-     ghc9.14-Cabal-syntax-devel \
-     ghc9.14-Cabal-syntax-doc \
-     ghc9.14-Cabal-syntax-prof \
      ghc9.14-compiler \
      ghc9.14-compiler-default \
      ghc9.14-containers \
@@ -115,10 +115,6 @@ dnf5 install -y \
      ghc9.14-ghc-heap-devel \
      ghc9.14-ghc-heap-doc \
      ghc9.14-ghc-heap-prof \
-     ghc9.14-ghci \
-     ghc9.14-ghci-devel \
-     ghc9.14-ghci-doc \
-     ghc9.14-ghci-prof \
      ghc9.14-ghc-platform \
      ghc9.14-ghc-platform-devel \
      ghc9.14-ghc-platform-doc \
@@ -128,6 +124,10 @@ dnf5 install -y \
      ghc9.14-ghc-toolchain-devel \
      ghc9.14-ghc-toolchain-doc \
      ghc9.14-ghc-toolchain-prof \
+     ghc9.14-ghci \
+     ghc9.14-ghci-devel \
+     ghc9.14-ghci-doc \
+     ghc9.14-ghci-prof \
      ghc9.14-haddock-api \
      ghc9.14-haddock-api-devel \
      ghc9.14-haddock-api-doc \
@@ -211,8 +211,44 @@ dnf5 install -y \
      ghc9.14-xhtml-devel \
      ghc9.14-xhtml-doc \
      ghc9.14-xhtml-prof \
+     gnome-bluetooth \
+     gnome-bluetooth-libs \
+     gnome-boxes \
+     gnome-browser-connector \
+     gnome-calculator \
+     gnome-calendar \
+     gnome-characters \
+     gnome-clocks \
+     gnome-color-manager \
+     gnome-contacts \
+     gnome-devel-docs \
+     gnome-dictionary \
+     gnome-disk-utility \
+     gnome-doc-utils \
+     gnome-doc-utils-stylesheets \
      gnome-extensions-app \
-     gnome-shell-extension-pop-shell-shortcut-overrides \
+     gnome-feeds \
+     gnome-firmware \
+     gnome-font-viewer \
+     gnome-keyring \
+     gnome-logs \
+     gnome-mahjongg \
+     gnome-manuals \
+     gnome-maps \
+     gnome-mines \
+     gnome-monitor-config \
+     gnome-music \
+     gnome-nettool \
+     gnome-nibbles \
+     gnome-online-accounts \
+     gnome-online-accounts-devel \
+     gnome-online-accounts-libs \
+     gnome-phone-manager \
+     gnome-photos \
+     gnome-radio \
+     gnome-robots \
+     gnome-screenshot \
+     gnome-search-yafti \
      gnome-shell-extension-appindicator \
      gnome-shell-extension-apps-menu \
      gnome-shell-extension-auto-move-windows \
@@ -237,6 +273,7 @@ dnf5 install -y \
      gnome-shell-extension-no-overview \
      gnome-shell-extension-places-menu \
      gnome-shell-extension-pop-shell \
+     gnome-shell-extension-pop-shell-shortcut-overrides \
      gnome-shell-extension-screenshot-window-sizer \
      gnome-shell-extension-status-icons \
      gnome-shell-extension-system-monitor \
@@ -245,7 +282,16 @@ dnf5 install -y \
      gnome-shell-extension-window-list \
      gnome-shell-extension-windowsNavigator \
      gnome-shell-extension-workspace-indicator \
+     gnome-sound-recorder \
+     gnome-sudoku \
+     gnome-system-monitor \
+     gnome-tetravex \
+     gnome-text-editor \
+     gnome-todo \
+     gnome-todo-devel \
      gnome-tweaks \
+     gnome-user-docs \
+     gnome-weather \
      htop \
      iotop-c \
      isync \
@@ -257,8 +303,8 @@ dnf5 install -y \
      lbdb \
      lftp \
      lftp-scripts \
-     lynx \
      lowdown \
+     lynx \
      mutt \
      netcat \
      nmap \
