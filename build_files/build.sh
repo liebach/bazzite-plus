@@ -31,6 +31,7 @@ dnf5 install -y \
      editorconfig \
      emacs \
      emacs-notmuch \
+	 firefox \
      foot \
      foot-terminfo \
      ghc9.14 \
