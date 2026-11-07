@@ -34,6 +34,9 @@ dnf5 install -y \
 	 firefox \
      foot \
      foot-terminfo \
+     helix \
+     helix-parsers \
+     helix-themes \
      htop \
      iotop-c \
      isync \
