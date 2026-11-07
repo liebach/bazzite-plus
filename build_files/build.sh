@@ -58,6 +58,8 @@ dnf5 install -y \
      ssmtp \
      syncthing \
      syncthing-tools \
+     thunderbird \
+     thunderbird-librnp-rnp \
      tig \
      tree-sitter-cli \
      vdirsyncer \
