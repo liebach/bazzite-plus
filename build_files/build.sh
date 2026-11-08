@@ -34,7 +34,6 @@ dnf5 install -y \
 	 firefox \
      foot \
      foot-terminfo \
-     ghostty \
      helix \
      helix-parsers \
      helix-themes \
@@ -75,10 +74,10 @@ dnf5 install -y \
      zig-libs \
      zoxide
 
-#dnf5 -y copr enable scottames/ghostty
-#dnf5 -y install ghostty
+dnf5 -y copr enable scottames/ghostty
+dnf5 -y install ghostty
 # Disable COPRs so they don't end up enabled on the final image.
-#dnf5 -y copr disable scottames/ghostty
+dnf5 -y copr disable scottames/ghostty
 
 # Install 1Password app.
 echo -e 'yes\n' | rpm --import https://downloads.1password.com/linux/keys/1password.asc
