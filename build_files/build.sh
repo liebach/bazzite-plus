@@ -81,7 +81,12 @@ dnf5 -y copr disable scottames/ghostty
 
 # Install 1Password app.
 echo -e 'yes\n' | rpm --import https://downloads.1password.com/linux/keys/1password.asc
-echo -e "[1password]\nname=1Password Stable Channel\nbaseurl=https://downloads.1password.com/linux/rpm/stable/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://downloads.1password.com/linux/keys/1password.asc" > /etc/yum.repos.d/1password.repo
+# Stable channel.
+#echo -e "[1password]\nname=1Password Stable Channel\nbaseurl=https://downloads.1password.com/linux/rpm/stable/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://downloads.1password.com/linux/keys/1password.asc" > /etc/yum.repos.d/1password.repo
+# Beta channel.
+echo -e "[1password]\nname=1Password Beta Channel\nbaseurl=https://downloads.1password.com/linux/rpm/beta/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://downloads.1password.com/linux/keys/1password.asc" > /etc/yum.repos.d/1password.repo
+# Nightly channel, if you feel brave.
+#echo -e "[1password]\nname=1Password Edge Channel\nbaseurl=https://downloads.1password.com/linux/rpm/edge/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://downloads.1password.com/linux/keys/1password.asc" > /etc/yum.repos.d/1password.repo
 dnf5 -y install 1password
 
 systemctl enable dictd
