@@ -57,6 +57,7 @@ dnf5 install -y \
      restic \
      rlwrap \
      sbcl \
+     senpai \
      signify \
      ssmtp \
      syncthing \
