@@ -54,6 +54,8 @@ dnf5 install -y \
      netcat \
      nmap \
      ps_mem \
+     qalculate \
+     qalculate-qt \
      restic \
      rlwrap \
      sbcl \
