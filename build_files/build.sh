@@ -57,6 +57,7 @@ dnf5 install -y \
      ps_mem \
      qalculate \
      qalculate-qt \
+     recode \
      restic \
      rlwrap \
      sbcl \
