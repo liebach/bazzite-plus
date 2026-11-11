@@ -50,6 +50,7 @@ dnf5 install -y \
      lftp-scripts \
      lowdown \
      lynx \
+     multimarkdown \
      mutt \
      netcat \
      nmap \
