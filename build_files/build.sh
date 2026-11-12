@@ -17,12 +17,14 @@ dnf5 install -y \
      abook \
      alacritty \
      alot \
+     arc-kde \
      aspell \
      aspell-da \
      aspell-en \
      calcurse \
      chicken \
      chicken-libs \
+     desktop-backgrounds-kde \
      dictd \
      dictd-server \
      direnv \
@@ -31,15 +33,18 @@ dnf5 install -y \
      editorconfig \
      emacs \
      emacs-notmuch \
+     fedora-chromium-config-kde \
 	 firefox \
      foot \
      foot-terminfo \
+     francis \
      helix \
      helix-parsers \
      helix-themes \
      htop \
      iotop-c \
      isync \
+     kalk \
      kitty \
      kitty-doc \
      kitty-kitten \
@@ -50,10 +55,12 @@ dnf5 install -y \
      lftp-scripts \
      lowdown \
      lynx \
+     materia-kde \
      multimarkdown \
      mutt \
      netcat \
      nmap \
+     powerdevil \
      ps_mem \
      qalculate \
      qalculate-qt \
@@ -70,6 +77,7 @@ dnf5 install -y \
      tree-sitter-cli \
      vdirsyncer \
      vdirsyncer-doc \
+     waynergy-kde \
      w3m \
      wlopm \
      zig \
