@@ -84,7 +84,11 @@ dnf5 install -y \
      zig \
      zig-doc \
      zig-libs \
-     zoxide
+     zoxide \
+     zsh \
+     zsh-autosuggestions \
+     zsh-html \
+     zsh-syntax-highlighting
 
 dnf5 -y copr enable scottames/ghostty
 dnf5 -y copr enable xc-34/ChiPass
