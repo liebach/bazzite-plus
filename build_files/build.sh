@@ -57,6 +57,7 @@ dnf5 install -y \
      lynx \
      materia-kde \
      multimarkdown \
+     mupdf \
      mutt \
      netcat \
      nmap \
