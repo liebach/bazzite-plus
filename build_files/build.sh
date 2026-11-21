@@ -31,10 +31,13 @@ dnf5 install -y \
      dnscrypt-proxy \
      duff \
      editorconfig \
+     elisa-player \
      emacs \
      emacs-notmuch \
      fedora-chromium-config-kde \
-	 firefox \
+     firefox \
+     flac \
+     flac-devel \
      foot \
      foot-terminfo \
      francis \
@@ -50,12 +53,14 @@ dnf5 install -y \
      kitty-kitten \
      kitty-shell-integration \
      kitty-terminfo \
+     lame \
      lbdb \
      lftp \
      lftp-scripts \
      lowdown \
      lynx \
      materia-kde \
+     mpv \
      multimarkdown \
      mupdf \
      mutt \
