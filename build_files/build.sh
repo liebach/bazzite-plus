@@ -106,8 +106,8 @@ systemctl enable dictd
 systemctl enable dnscrypt-proxy.service
 systemctl enable podman.socket
 
-# Attempt to set up system auth for BitWarden installed from flatpak.
-# src: https://bitwarden.com/help/biometrics/#tab-linux-2vCWb5iFg4OqKS0B2xXpqW
+# Set up system auth for the BitWarden app installed from flatpak.
+# See: https://bitwarden.com/help/biometrics/#tab-linux-2vCWb5iFg4OqKS0B2xXpqW
+# Works without the chcon(1) call, which fails during build. Lucky.
 curl -o /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy https://raw.githubusercontent.com/bitwarden/clients/main/apps/desktop/resources/com.bitwarden.desktop.policy
 chown root:root /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy
-#chcon system_u:object_r:usr_t:s0 /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy
