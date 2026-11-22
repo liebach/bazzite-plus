@@ -22,6 +22,7 @@ dnf5 install -y \
      aspell-da \
      aspell-en \
      calcurse \
+     chezmoi \
      chicken \
      chicken-libs \
      desktop-backgrounds-kde \
