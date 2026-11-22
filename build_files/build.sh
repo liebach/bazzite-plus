@@ -34,6 +34,7 @@ dnf5 install -y \
      elisa-player \
      emacs \
      emacs-notmuch \
+     fawltydeps+uv \
      fedora-chromium-config-kde \
      firefox \
      flac \
@@ -81,6 +82,7 @@ dnf5 install -y \
      syncthing-tools \
      tig \
      tree-sitter-cli \
+     uv \
      vdirsyncer \
      vdirsyncer-doc \
      waynergy-kde \
