@@ -80,6 +80,7 @@ dnf5 install -y \
      rlwrap \
      sbcl \
      senpai \
+     ShellCheck \
      signify \
      ssmtp \
      syncthing \
