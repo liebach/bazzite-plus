@@ -21,10 +21,12 @@ dnf5 install -y \
      aspell \
      aspell-da \
      aspell-en \
+     bat \
      calcurse \
      chezmoi \
      chicken \
      chicken-libs \
+     chromium \
      desktop-backgrounds-kde \
      dictd \
      dictd-server \
@@ -36,6 +38,7 @@ dnf5 install -y \
      emacs \
      emacs-notmuch \
      fawltydeps+uv \
+     fd-find \
      fedora-chromium-config-kde \
      firefox \
      flac \
